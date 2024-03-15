@@ -14,7 +14,7 @@ import (
 	"google.golang.org/grpc/credentials/insecure"
 )
 
-var orderServiceAddr string
+var orderServiceAddr = "localhost:50051"
 
 func main() {
 	// Set up a connection to the order server.
